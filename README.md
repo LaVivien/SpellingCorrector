@@ -127,10 +127,4 @@ if a string s has an alteration distance of 1 from another string t then |s| = |
 are exactly 25* | t | strings that are an alteration distance of 1 from t . The dictionary may
 contain 0 to n of the strings one alteration distance from t .
 
-- Insertion Distance : A string s has an insertion distance 1 from another string t if and only
-if t has a deletion distance of 1 from s . The only strings that are an insertion distance of 1
-from “ask” are “aask”, “bask”, “cask”, … “zask”, “aask”, “absk”, “acsk”, … “azsk”, “asak”,
-“asbk”, “asck”, … “aszk”, “aska”, “askb”, “askc”, … “askz”. Note that if a string s has an
-insertion distance of 1 from another string t then |s| = |t|+1. Also, there are exactly 26* (| t |
-+ 1) strings that are an insertion distance of 1 from t . The dictionary may contain 0 to n of
-the strings one insertion distance from t .
+- Insertion Distance : A string s has an insertion distance 1 from another string t if and only if t has a deletion distance of 1 from s . The only strings that are an insertion distance of 1 from “ask” are “aask”, “bask”, “cask”, … “zask”, “aask”, “absk”, “acsk”, … “azsk”, “asak”, “asbk”, “asck”, … “aszk”, “aska”, “askb”, “askc”, … “askz”. Note that if a string s has an insertion distance of 1 from another string t then |s| = |t|+1. Also, there are exactly 26* (|t|+1) strings that are an insertion distance of 1 from t . The dictionary may contain 0 to n of the strings one insertion distance from t .
